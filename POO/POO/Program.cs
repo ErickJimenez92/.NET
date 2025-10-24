@@ -182,50 +182,50 @@ namespace POO
             //}
 
             //-------------------------------------PERSONAS-------------------------------------
-            Console.WriteLine("=== PROGRAMA PERSONA ===");
-            //SOLICITAR DATOS
-            Console.WriteLine("Ingrese el nombre: ");
-            string nombre = Console.ReadLine();
-            Console.WriteLine("Ingrese la edad: ");
-            int edad = int.Parse(Console.ReadLine());
+            //Console.WriteLine("=== PROGRAMA PERSONA ===");
+            ////SOLICITAR DATOS
+            //Console.WriteLine("Ingrese el nombre: ");
+            //string nombre = Console.ReadLine();
+            //Console.WriteLine("Ingrese la edad: ");
+            //int edad = int.Parse(Console.ReadLine());
 
-            char genero;
-            do
-            {
-                Console.WriteLine("Ingrese el género (F/M): ");
-                genero = char.Parse(Console.ReadLine().ToUpper());
-            }
-            while (genero != 'F' && genero != 'M');
-            Console.WriteLine("Ingrese el telefono: ");
-            string telefono = Console.ReadLine();
+            //char genero;
+            //do
+            //{
+            //    Console.WriteLine("Ingrese el género (F/M): ");
+            //    genero = char.Parse(Console.ReadLine().ToUpper());
+            //}
+            //while (genero != 'F' && genero != 'M');
+            //Console.WriteLine("Ingrese el telefono: ");
+            //string telefono = Console.ReadLine();
 
-            //crear objeto
-            Persona persona = new Persona(nombre, edad, genero, telefono);
-            int opcion;
-            do
-            {
-                Console.WriteLine("\nSeleccione una opción");
-                Console.WriteLine("1. Imprimir detalles de la persona ");
-                Console.WriteLine("2. Calcular edad en dias");
-                Console.WriteLine("3. Salir");
-                Console.WriteLine("Opción: ");
-                opcion = int.Parse(Console.ReadLine());
-                switch (opcion)
-                {
-                    case 1:
-                        persona.ImprimirDetalles();
-                        break;
-                    case 2:
-                        persona.CalcularEdadEnDias();
-                        break;
-                    case 3:
-                        Console.WriteLine("Saliendo del programa...");
-                        break;
-                    default:
-                        Console.WriteLine("Opcion no valida, intente nuevamente.");
-                        break;
-                }
-            } while (opcion != 3);
+            ////crear objeto
+            //Persona persona = new Persona(nombre, edad, genero, telefono);
+            //int opcion;
+            //do
+            //{
+            //    Console.WriteLine("\nSeleccione una opción");
+            //    Console.WriteLine("1. Imprimir detalles de la persona ");
+            //    Console.WriteLine("2. Calcular edad en dias");
+            //    Console.WriteLine("3. Salir");
+            //    Console.WriteLine("Opción: ");
+            //    opcion = int.Parse(Console.ReadLine());
+            //    switch (opcion)
+            //    {
+            //        case 1:
+            //            persona.ImprimirDetalles();
+            //            break;
+            //        case 2:
+            //            persona.CalcularEdadEnDias();
+            //            break;
+            //        case 3:
+            //            Console.WriteLine("Saliendo del programa...");
+            //            break;
+            //        default:
+            //            Console.WriteLine("Opcion no valida, intente nuevamente.");
+            //            break;
+            //    }
+            //} while (opcion != 3);
 
         }
     }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sena\\source\\repos\\ficha-3147912\\POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8329ABD-D715-45DD-B34D-622707045015}|POO\\POO.csproj|c:\\users\\sena\\source\\repos\\ficha-3147912\\poo\\poo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8329ABD-D715-45DD-B34D-622707045015}|POO\\POO.csproj|solutionrelative:poo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8329ABD-D715-45DD-B34D-622707045015}|POO\\POO.csproj|c:\\users\\sena\\source\\repos\\ficha-3147912\\poo\\poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8329ABD-D715-45DD-B34D-622707045015}|POO\\POO.csproj|solutionrelative:poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8329ABD-D715-45DD-B34D-622707045015}|POO\\POO.csproj|c:\\users\\sena\\source\\repos\\ficha-3147912\\poo\\poo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8329ABD-D715-45DD-B34D-622707045015}|POO\\POO.csproj|solutionrelative:poo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8329ABD-D715-45DD-B34D-622707045015}|POO\\POO.csproj|c:\\users\\sena\\source\\repos\\ficha-3147912\\poo\\poo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Sena\\source\\repos\\ficha-3147912\\POO\\POO\\Persona.cs",
               "RelativeDocumentMoniker": "POO\\Persona.cs",
-              "ToolTip": "C:\\Users\\Sena\\source\\repos\\ficha-3147912\\POO\\POO\\Persona.cs*",
-              "RelativeToolTip": "POO\\Persona.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwCYAAABfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Sena\\source\\repos\\ficha-3147912\\POO\\POO\\Persona.cs",
+              "RelativeToolTip": "POO\\Persona.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCYAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T21:35:58.03Z",
               "EditorCaption": ""
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sena\\source\\repos\\ficha-3147912\\POO\\POO\\Program.cs",
               "RelativeDocumentMoniker": "POO\\Program.cs",
               "ToolTip": "C:\\Users\\Sena\\source\\repos\\ficha-3147912\\POO\\POO\\Program.cs",
               "RelativeToolTip": "POO\\Program.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAswOMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAswOMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T20:25:42.519Z",
               "EditorCaption": ""
